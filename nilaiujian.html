@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let inputUser = parseInt(prompt("masukan nilai ujian?"));
+
+if (inputUser > 90 && inputUser <= 100) {
+    document.write("Nilai: A")
+}else if (inputUser > 80 && inputUser <= 90) {
+    document.write("Nilai: B")
+}else if (inputUser > 70 && inputUser <= 80) {
+    document.write("Nilai: C")
+}else if (inputUser > 60 && inputUser <= 70) {
+    document.write("Nilai: D")
+}else if (inputUser > 50 && inputUser <= 60) {
+    document.write("Nilai: E")
+}else if(inputUser >= 0 && inputUser <=50){
+    document.write("Mengulang")
+}
+else{
+    document.write("Input Tidak Valid")
+}
+    </script>
+</body>
+</html>
